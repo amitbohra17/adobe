@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Processing App</title>
+</head>
+<body>
+    <h1>Shape Processing App</h1>
+    
+    <!-- Form to upload SVG for regularization -->
+    <h2>Upload SVG to Regularize Paths</h2>
+    <form action="{{ url_for('upload_svg') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="svg_file" accept=".svg">
+        <input type="submit" value="Upload SVG">
+    </form>
+    
+    <!-- Form to upload image for shape detection -->
+    <h2>Upload Image for Completing Image</h2>
+    <form action="{{ url_for('upload_shape_image') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="shape_image" accept="image/*">
+        <input type="submit" value="Upload Image">
+    </form>
+    
+    <!-- Form to upload image for symmetry detection -->
+    <h2>Upload Image for Symmetry Detection</h2>
+    <form action="{{ url_for('upload_symmetry_image') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="symmetry_image" accept="image/*">
+        <input type="submit" value="Upload Image">
+    </form>
+</body>
+</html>
