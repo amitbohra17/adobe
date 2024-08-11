@@ -3,4 +3,6 @@ We have implented features like completing the image,finding symmetry and regula
 
 Here is the screenshots of output:
 ![WhatsApp Image 2024-08-11 at 8 39 27 PM](https://github.com/user-attachments/assets/7e9d966a-8f33-43ea-aa39-ab5eb5426152)
+![WhatsApp Image 2024-08-11 at 8 39 26 PM (1)](https://github.com/user-attachments/assets/f3a71fe8-83eb-4d48-bf94-44d64ffa53d7)
+
 
